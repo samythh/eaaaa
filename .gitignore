@@ -1,0 +1,35 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+
+# Office temporary and lock files
+~$*
+*.tmp
+*.bak
+
+# Sparx temporary/lock files
+*.qea.lck
+*.ldb
+
+# Raw interview evidence and potentially sensitive media
+04_Wawancara/02_Rekaman_Asli/**
+04_Wawancara/03_Foto_Asli/**
+04_Wawancara/05_Transkrip/*.m4a
+04_Wawancara/05_Transkrip/*.mp3
+04_Wawancara/05_Transkrip/*.wav
+04_Wawancara/05_Transkrip/*.mp4
+
+# RS documents are reviewed locally before an explicitly approved release
+04_Wawancara/06_Dokumen_RS/*
+!04_Wawancara/06_Dokumen_RS/DAFTAR_DOKUMEN.md
+
+# Course materials and licensed/third-party reference files are local-only
+02_Acuan_Kuliah/*
+!02_Acuan_Kuliah/README.md
+03_Referensi_TOGAF/*
+!03_Referensi_TOGAF/README.md
+
+# Superseded generated reports; keep the current Kelompok 4 revision
+05_Laporan_Kemajuan/01_Draft/Laporan_Kemajuan_EA_Kelompok_Mikail_DRAFT.docx
+05_Laporan_Kemajuan/01_Draft/Laporan_Kemajuan_EA_Kelompok_Mikail_GAYA_PROPOSAL.docx
+05_Laporan_Kemajuan/01_Draft/Laporan_Kemajuan_EA_Kelompok_Mikail_PASCA_WAWANCARA.docx
